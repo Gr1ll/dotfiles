@@ -47,6 +47,7 @@ lua require("toggleterm_setup")
 lua require('cmp_setup')
 lua require('treesitter_setup')
 lua require('mason_setup')
+lua require('autoclose_setup')
 
 nmap <D-S-2> :NERDTreeToggle<CR>
 nmap <D-S-h> :tabp<CR>
