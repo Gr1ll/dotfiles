@@ -36,6 +36,7 @@ call plug#end()
 
 let g:toggleterm_terminal_mode = 'insert'
 let g:neoformat_try_node_exe = 1
+let NERDTreeShowHidden=1
 
 hi Normal guibg=NONE ctermbg=NONE
 hi NormalNC guibg=NONE ctermbg=NONE
