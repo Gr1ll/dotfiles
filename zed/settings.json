@@ -1,11 +1,3 @@
-// Zed settings
-//
-// For information on how to configure Zed, see the Zed
-// documentation: https://zed.dev/docs/configuring-zed
-//
-// To see all of Zed's default settings without changing your
-// custom settings, run the `open default settings` command
-// from the command palette or from `Zed` application menu.
 {
   "theme": "One Dark",
   "features": {
@@ -17,29 +9,30 @@
   },
   "experimental.theme_overrides": {
     "background.appearance": "blurred",
-    "background": "#00000000",
-    "editor.background": "#00000020",
-    "editor.gutter.background": "#00000020",
+    "background": "#00000080",
+    "editor.background": "#00000000",
+    "editor.gutter.background": "#00000000",
     "editor.active_line_number": "#FFFFFF",
-    "editor.active_line.background": "#00000020",
-    "tab_bar.background": "#00000020",
-    "terminal.background": "#00000020",
-    "toolbar.background": "#00000020",
-    "tab.active_background": "#00000020",
-    "tab.inactive_background": "#00000020",
+    "editor.active_line.background": "#00000000",
+    "tab_bar.background": "#00000000",
+    "terminal.background": "#00000000",
+    "toolbar.background": "#00000000",
+    "tab.active_background": "#00000000",
+    "tab.inactive_background": "#00000000",
     "status_bar.background": "#000000",
     "title_bar.background": "#000000",
-    "panel.background": "#00000020",
+    "panel.background": "#00000000",
     "panel.indent_guide": "#555555",
     "border": "FFFFFF",
-    "border.variant": "#00000020",
+    "border.variant": "#00000000",
     "scrollbar.thumb.background": "#999999",
     "scrollbar.track.background": "#00000000",
     "scrollbar.thumb.border": "#00000000",
-    "scrollbar.track.border": "#00000020"
+    "scrollbar.track.border": "#00000000",
+    "text": "#FFFFFF"
   },
   "terminal": {
-    "font_family": "agave Nerd Font Mono"
+    "font_family": "Zed Plex Mono"
   },
   "vim_mode": true,
   "ui_font_size": 16,
