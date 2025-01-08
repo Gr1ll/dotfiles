@@ -1,7 +1,14 @@
 {
+  "assistant": {
+    "default_model": {
+      "provider": "zed.dev",
+      "model": "claude-3-5-sonnet-latest"
+    },
+    "version": "2"
+  },
   "theme": "One Dark",
   "features": {
-    "inline_completion_provider": "none"
+    "inline_completion_provider": "copilot"
   },
   "telemetry": {
     "diagnostics": false,
