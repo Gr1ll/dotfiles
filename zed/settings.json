@@ -6,37 +6,13 @@
     },
     "version": "2"
   },
-  "theme": "One Dark",
+  "theme": "Catppuccin Mocha (Blur)",
   "features": {
     "inline_completion_provider": "copilot"
   },
   "telemetry": {
     "diagnostics": false,
     "metrics": false
-  },
-  "experimental.theme_overrides": {
-    "background.appearance": "blurred",
-    "background": "#00000095",
-    "editor.background": "#00000020",
-    "editor.gutter.background": "#00000020",
-    "editor.active_line_number": "#FFFFFF",
-    "editor.active_line.background": "#00000020",
-    "tab_bar.background": "#00000020",
-    "terminal.background": "#00000020",
-    "toolbar.background": "#00000020",
-    "tab.active_background": "#00000020",
-    "tab.inactive_background": "#00000020",
-    "status_bar.background": "#000000",
-    "title_bar.background": "#000000",
-    "panel.background": "#00000001",
-    "panel.indent_guide": "#555555",
-    "border": "FFFFFF",
-    "border.variant": "#00000020",
-    "scrollbar.thumb.background": "#999999",
-    "scrollbar.track.background": "#00000020",
-    "scrollbar.thumb.border": "#00000020",
-    "scrollbar.track.border": "#00000020",
-    "text": "#FFFFFF"
   },
   "terminal": {
     "font_family": "Zed Plex Mono"
