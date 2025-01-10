@@ -15,7 +15,7 @@
     "metrics": false
   },
   "terminal": {
-    "font_family": "agave Nerd Font Mono"
+    "font_family": "Zed Plex Mono"
   },
   "lsp": {
     "angular": {
