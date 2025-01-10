@@ -6,16 +6,24 @@
     },
     "version": "2"
   },
-  "theme": "Catppuccin Mocha (Blur)",
+  "theme": "Catppuccin Espresso (Blur)",
   "features": {
-    "inline_completion_provider": "copilot"
+    "inline_completion_provider": "none"
   },
   "telemetry": {
     "diagnostics": false,
     "metrics": false
   },
   "terminal": {
-    "font_family": "Zed Plex Mono"
+    "font_family": "agave Nerd Font Mono"
+  },
+  "lsp": {
+    "angular": {
+      "initialization_options": {
+        "angular_language_service_version": "19.0.3",
+        "typescript_version": "5.6.3"
+      }
+    }
   },
   "vim_mode": true,
   "ui_font_size": 16,
