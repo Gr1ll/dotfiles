@@ -17,6 +17,9 @@
   "terminal": {
     "font_family": "Zed Plex Mono"
   },
+  "experimental.theme_overrides": {
+    "editor.line_number": "#b4bcd7"
+  },
   "lsp": {
     "angular": {
       "initialization_options": {
