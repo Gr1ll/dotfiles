@@ -7,8 +7,11 @@
     "version": "2"
   },
   "theme": "Nstlgy Glass Dark",
+  "experimental.theme_overrides": {
+    "editor.line_number": "#b4bcd7"
+  },
   "features": {
-    "inline_completion_provider": "none"
+    "inline_completion_provider": "copilot"
   },
   "telemetry": {
     "diagnostics": false,
@@ -16,9 +19,6 @@
   },
   "terminal": {
     "font_family": "Zed Plex Mono"
-  },
-  "experimental.theme_overrides": {
-    "editor.line_number": "#b4bcd7"
   },
   "lsp": {
     "angular": {
