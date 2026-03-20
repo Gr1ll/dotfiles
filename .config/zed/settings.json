@@ -1,17 +1,40 @@
 {
-  "assistant": {
+  "language_models": {
+    "lmstudio": {
+      "api_url": "http://127.0.0.1:1234/api/v0"
+    }
+  },
+  "edit_predictions": {
+    "provider": "copilot"
+  },
+  "git_panel": {
+    "tree_view": true,
+    "sort_by_path": false
+  },
+  "show_edit_predictions": false,
+  "icon_theme": "Colored Zed Icons Theme Dark",
+  "disable_ai": false,
+  "agent": {
+    "favorite_models": [],
+    "default_profile": "write",
+    "notify_when_agent_waiting": "never",
+    "enable_feedback": false,
+    "single_file_review": false,
     "default_model": {
-      "provider": "zed.dev",
-      "model": "claude-3-5-sonnet-latest"
-    },
-    "version": "2"
+      "enable_thinking": false,
+      "provider": "lmstudio",
+      "model": "qwen3-coder-30b-a3b-instruct-mlx"
+    }
+  },
+  "context_servers": {
+    "angular-cli": {
+      "command": "npx",
+      "args": ["-y", "@angular/cli", "mcp"]
+    }
   },
   "theme": "Nstlgy Glass Dark",
   "experimental.theme_overrides": {
     "editor.line_number": "#b4bcd7"
-  },
-  "features": {
-    "inline_completion_provider": "copilot"
   },
   "telemetry": {
     "diagnostics": false,
@@ -20,15 +43,15 @@
   "terminal": {
     "font_family": "Zed Plex Mono"
   },
-  "lsp": {
-    "angular": {
-      "initialization_options": {
-        "angular_language_service_version": "19.0.3",
-        "typescript_version": "5.6.3"
-      }
+  "formatter": {
+    "external": {
+      "command": "npx",
+      "arguments": ["prettier", "--stdin-filepath", "{buffer_path}"]
     }
   },
+  "format_on_save": "on",
+
   "vim_mode": true,
   "ui_font_size": 14,
-  "buffer_font_size": 14
+  "buffer_font_size": 14,
 }
