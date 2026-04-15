@@ -32,7 +32,7 @@
       "args": ["-y", "@angular/cli", "mcp"]
     }
   },
-  "theme": "Nstlgy Glass Dark",
+  "theme": "Catppuccin Macchiato (Blur) [Light]",
   "experimental.theme_overrides": {
     "editor.line_number": "#b4bcd7"
   },
