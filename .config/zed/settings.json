@@ -1,4 +1,18 @@
 {
+  "calls": {
+    "mute_on_join": true
+  },
+  "always_treat_brackets_as_autoclosed": false,
+  "cli_default_open_behavior": "new_window",
+  "project_panel": {
+    "dock": "left"
+  },
+  "outline_panel": {
+    "dock": "right"
+  },
+  "collaboration_panel": {
+    "dock": "left"
+  },
   "language_models": {
     "lmstudio": {
       "api_url": "http://127.0.0.1:1234/api/v0"
